@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Sportifree",
+    "slug": "olimpiada-oceano",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/headphones-icon.png",
+    "scheme": "olimpiadaoceano",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/images/headphones-icon.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#000000",
+        "foregroundImage": "./assets/images/headphones-icon.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.skylla00.olimpiadaoceano"
+    },
+    "web": {
+      "output": "server",
+      "favicon": "./assets/images/headphones-icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#208AEF",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 76
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "4c256507-8a28-4658-8a7b-7c1a3ecad271"
+      }
+    }
+  }
+}
